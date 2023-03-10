@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost/local
+
+
+context:
+  initializer:
+    classes: com.example.reactor.reactor.BeansInitializer

@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  tomcat:
+    threads:
+      max: 500
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost/local
